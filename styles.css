@@ -42,9 +42,6 @@ table {
   --space-md: 1.5rem;
   --space-lg: 2rem;
 
-  --shadow-card: 0 2px 4px rgba(0, 0, 0, 0.15);
-  --shadow-elev: 0 4px 12px rgba(0, 0, 0, 0.25);
-
   --ff-display: "Kavoon", cursive;
   --ff-body: "Inter", sans-serif;
 
@@ -154,4 +151,39 @@ body {
   font-family: var(--ff-body);
   font-size: 1.5em;
   color: var(--clr-yellow);
+}
+/* Service Cards */
+.service-card {
+  background: var(--clr-white);
+  margin: 0 var(--space-sm) var(--space-sm);
+  padding: var(--space-sm);
+  border-radius: var(--radius-lg);
+  display: flex;                 
+  flex-direction: column;       
+  align-items: flex-start;   
+  text-align: left;
+}
+
+.service-card .service-media {
+  width: 100%;                   
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;   
+  margin-bottom: var(--space-sm);
+}
+
+.service-card .service-media img {
+  object-fit: contain;
+}
+
+.service-card .service-body h4 {
+  font-family: var(--ff-body);
+  font-size: 1.15em; /* H4 */
+  margin-bottom: var(--space-xs);
+  color: var(--clr-purple);
+}
+
+.service-card .service-body p {
+  font-size: 0.95rem;
+  line-height: 1.35;
 }
