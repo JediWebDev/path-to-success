@@ -23,3 +23,31 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
+/* ROOT VARIABLES */
+:root {
+  --clr-teal: #4CA7C0;
+  --clr-purple: #484FB7;
+  --clr-lavender: #6B8FE7;
+  --clr-yellow: #E9BB57;
+  --clr-pink: #D9526F;
+  --clr-dark: #1E1E1E;
+  --clr-white: #ffffff;
+
+  --radius-lg: 16px;
+  --radius-sm: 8px;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+
+  --shadow-card: 0 2px 4px rgba(0,0,0,.15);
+  --shadow-elev: 0 4px 12px rgba(0,0,0,.25);
+
+  --ff-display: "Kavoon", cursive;
+  --ff-body: "Inter", sans-serif;
+
+  --fw-bold: 700;
+  --fw-reg: 400;
+}
+
