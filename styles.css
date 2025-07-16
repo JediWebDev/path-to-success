@@ -187,3 +187,38 @@ body {
   font-size: 0.95rem;
   line-height: 1.35;
 }
+/* Why Choose Us */
+.why-group {
+  background: var(--clr-pink);
+  padding-bottom: var(--space-md);
+}
+.why-grid {
+  list-style: none;
+  margin: 0 var(--space-sm);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
+  gap: var(--space-sm);
+}
+.why-card {
+  background: var(--clr-lavender);
+  font-family: var(--ff-body);
+  text-align: center;
+  line-height: var(--space-sm);
+  padding: var(--space-md) var(--space-sm);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--clr-teal);
+}
+.why-card:nth-child(2) {
+  background: var(--clr-lavender);
+  align-items: flex-start;
+}
+.why-card:nth-child(3) {
+  background: var(--clr-yellow);
+}
+.why-card:nth-child(4) {
+  background: var(--clr-white);
+  align-items: flex-start;
+}
