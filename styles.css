@@ -69,3 +69,20 @@ body {
   overflow-x: hidden;
 }
 
+/* Header */
+.site-header {
+  text-align: center;
+  color: var(--clr-white);
+  padding: var(--space-md) var(--space-sm) var(--space-sm);
+  background: var(--clr-purple);
+}
+.site-header h1 {
+  font-family: var(--ff-display);
+  font-size: 3em; 
+  line-height: 1.1;
+}
+.site-header .tagline {
+  font-size: 1rem;
+  margin-top: var(--space-xs);
+}
+
