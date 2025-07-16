@@ -2,7 +2,7 @@
 /* Andrew's Path to Success Stylesheet */
 
 /* IMPORTED FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
 
 /* CSS REST */
 *,
@@ -12,7 +12,8 @@
   margin: 0;
   padding: 0;
 }
-html, body {
+html,
+body {
   height: 100%;
 }
 img {
@@ -26,12 +27,12 @@ table {
 
 /* ROOT VARIABLES */
 :root {
-  --clr-teal: #4CA7C0;
-  --clr-purple: #484FB7;
-  --clr-lavender: #6B8FE7;
-  --clr-yellow: #E9BB57;
-  --clr-pink: #D9526F;
-  --clr-dark: #1E1E1E;
+  --clr-teal: #4ca7c0;
+  --clr-purple: #484fb7;
+  --clr-lavender: #6b8fe7;
+  --clr-yellow: #e9bb57;
+  --clr-pink: #d9526f;
+  --clr-dark: #1e1e1e;
   --clr-white: #ffffff;
 
   --radius-lg: 16px;
@@ -41,12 +42,13 @@ table {
   --space-md: 1.5rem;
   --space-lg: 2rem;
 
-  --shadow-card: 0 2px 4px rgba(0,0,0,.15);
-  --shadow-elev: 0 4px 12px rgba(0,0,0,.25);
+  --shadow-card: 0 2px 4px rgba(0, 0, 0, 0.15);
+  --shadow-elev: 0 4px 12px rgba(0, 0, 0, 0.25);
 
   --ff-display: "Kavoon", cursive;
   --ff-body: "Inter", sans-serif;
 
+  --fw-extra-bold: 900;
   --fw-bold: 700;
   --fw-reg: 400;
 }
@@ -78,11 +80,50 @@ body {
 }
 .site-header h1 {
   font-family: var(--ff-display);
-  font-size: 3em; 
+  font-size: 3em;
   line-height: 1.1;
 }
 .site-header .tagline {
   font-size: 1rem;
+  font-style: italic;
   margin-top: var(--space-xs);
+  margin-bottom: var(--space-sm);
 }
 
+/* Nav */
+.primary-nav {
+  background: var(--clr-yellow);
+  text-align: center;
+  padding: var(--space-sm);
+}
+.primary-nav .nav-heading {
+  font-family: var(--ff-body);
+  font-size: var(--space-md);
+  font-weight: var(--fw-bold);
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: var(--space-xs);
+  color: var(--clr-dark);
+}
+.primary-nav ul {
+  list-style: none;
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.btn-nav {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--clr-white);
+  color: var(--clr-purple);
+  text-decoration: none;
+  font-size: var(--space-sm);
+  font-weight: var(--fw-extra-bold);
+  text-transform: uppercase;
+}
+.btn-nav:focus,
+.btn-nav:hover {
+  background: var(--clr-purple);
+  color: var(--clr-white);
+}
