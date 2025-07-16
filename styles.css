@@ -292,7 +292,7 @@ body {
 }
 .btn-cta {
   display: inline-block;
-  padding: 0.75rem 2rem;
+  padding: var(--space-sm);
   background: var(--clr-white);
   font-size: var(--space-sm);
   font-weight: var(--fw-bold);
@@ -300,11 +300,36 @@ body {
   border-radius: var(--radius-sm);
   border: none;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
-  width: 60%;
+  width: 75%;
 }
 
+.btn-cta:focus,
 .btn-cta:hover {
   cursor: pointer;
   background: var(--clr-purple);
   color: var(--clr-white);
+}
+
+/* Footer */
+.site-footer {
+  background: var(--clr-purple);
+  color: var(--clr-white);
+  text-align: center;
+  padding: var(--space-md);
+}
+.site-footer small {
+  display: inline-flex;
+  align-items: center;
+  gap: 4rem;
+  padding: var(--space-md);
+  margin: 0 var(--space-md) 0 var(--space-md);
+}
+.site-footer a {
+  color: var(--clr-white);
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+}
+.site-footer a:focus,
+.site-footer a:hover {
+  color: var(--clr-yellow);
 }
