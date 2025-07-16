@@ -277,6 +277,7 @@ body {
 /* CTA */
 .cta-group {
   background: var(--clr-pink);
+  margin-top: var(--space-sm);
   padding-bottom: var(--space-xs);
   text-align: center;
 }
@@ -300,4 +301,10 @@ body {
   border: none;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
   width: 60%;
+}
+
+.btn-cta:hover {
+  cursor: pointer;
+  background: var(--clr-purple);
+  color: var(--clr-white);
 }
