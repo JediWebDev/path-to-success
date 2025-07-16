@@ -127,3 +127,31 @@ body {
   background: var(--clr-purple);
   color: var(--clr-white);
 }
+.section-head {
+  padding: var(--space-md) var(--space-sm) var(--space-xs);
+  color: var(--clr-white);
+  text-align: left;
+}
+.section-head h2 {
+  font-family: var(--ff-display);
+  font-size: 2em; /* H2 */
+  line-height: 1.1;
+}
+.section-head h3 {
+  font-family: var(--ff-body);
+  font-size: 1.5em; /* H3 */
+  color: var(--clr-yellow);
+  line-height: 1.2;
+  margin-top: var(--space-xs);
+}
+
+.subgroup-head {
+  padding: var(--space-md) var(--space-sm) var(--space-xs);
+  color: var(--clr-white);
+  text-align: left;
+}
+.subgroup-head h3 {
+  font-family: var(--ff-body);
+  font-size: 1.5em;
+  color: var(--clr-yellow);
+}
