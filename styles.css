@@ -293,9 +293,11 @@ body {
 .btn-cta {
   display: inline-block;
   padding: var(--space-sm);
+  margin: 0 4rem;
   background: var(--clr-white);
   font-size: var(--space-sm);
   font-weight: var(--fw-bold);
+  text-align: center;
   text-decoration: none;
   border-radius: var(--radius-sm);
   border: none;
